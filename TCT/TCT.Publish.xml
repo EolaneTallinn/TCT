@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="\\tal57vs\C$\inetpub\wwwroot\tct" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="Defaul Web Site/tct" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="tal57vs" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/ru/AjaxControlToolkit.resources.dll" publishTime="11/16/2011 13:22:02" />
+    <file relUrl="Images/down.jpg" publishTime="01/04/2012 16:18:35" />
+    <file relUrl="Images/minus.gif" publishTime="06/29/2012 17:10:58" />
+    <file relUrl="Images/up.jpg" publishTime="01/04/2012 16:18:41" />
+    <file relUrl="bin/TCT.pdb" publishTime="01/30/2013 16:58:48" />
+    <file relUrl="RepGateReg.aspx" publishTime="01/07/2013 15:56:47" />
+    <file relUrl="SetSuppliers.aspx" publishTime="01/30/2013 16:05:30" />
+    <file relUrl="bin/es/AjaxControlToolkit.resources.dll" publishTime="11/16/2011 13:22:00" />
+    <file relUrl="Site.Master" publishTime="01/30/2013 16:02:36" />
+    <file relUrl="filterlist.js" publishTime="04/10/2012 18:58:58" />
+    <file relUrl="Receiving.aspx" publishTime="01/30/2013 16:58:47" />
+    <file relUrl="bin/TCT.dll" publishTime="01/30/2013 16:58:48" />
+    <file relUrl="RepStockMovements.aspx" publishTime="01/10/2013 14:21:32" />
+    <file relUrl="Images/search.png" publishTime="02/29/2012 15:39:56" />
+    <file relUrl="bin/hi/AjaxControlToolkit.resources.dll" publishTime="11/16/2011 13:22:00" />
+    <file relUrl="Images/plus.jpg" publishTime="02/29/2012 15:31:27" />
+    <file relUrl="SetCurrencies.aspx" publishTime="12/27/2012 16:36:09" />
+    <file relUrl="SetCountries.aspx" publishTime="12/27/2012 16:25:52" />
+    <file relUrl="bin/zh-CHS/AjaxControlToolkit.resources.dll" publishTime="11/16/2011 13:22:02" />
+    <file relUrl="Images/gear.jpg" publishTime="08/27/2012 14:31:37" />
+    <file relUrl="App_LocalResources/GateReg.aspx.ru.resx" publishTime="12/17/2012 11:17:47" />
+    <file relUrl="bin/AjaxControlToolkit.pdb" publishTime="11/16/2011 13:21:58" />
+    <file relUrl="Images/warning.jpg" publishTime="04/23/2012 11:30:16" />
+    <file relUrl="bin/de/AjaxControlToolkit.resources.dll" publishTime="11/16/2011 13:22:00" />
+    <file relUrl="Images/file-icon.jpg" publishTime="09/11/2012 16:08:23" />
+    <file relUrl="bin/AjaxControlToolkit.dll" publishTime="11/16/2011 13:21:58" />
+    <file relUrl="bin/zh-CHT/AjaxControlToolkit.resources.dll" publishTime="11/16/2011 13:22:02" />
+    <file relUrl="Images/plus.gif" publishTime="06/29/2012 17:10:58" />
+    <file relUrl="Default.aspx" publishTime="08/23/2012 14:31:53" />
+    <file relUrl="PrintDocument.aspx" publishTime="01/22/2013 16:39:32" />
+    <file relUrl="bin/he/AjaxControlToolkit.resources.dll" publishTime="11/16/2011 13:22:00" />
+    <file relUrl="bin/fr/AjaxControlToolkit.resources.dll" publishTime="11/16/2011 13:22:00" />
+    <file relUrl="bin/itextsharp.dll" publishTime="04/01/2012 14:21:30" />
+    <file relUrl="bin/nl/AjaxControlToolkit.resources.dll" publishTime="11/16/2011 13:22:02" />
+    <file relUrl="bin/tr-TR/AjaxControlToolkit.resources.dll" publishTime="11/16/2011 13:22:02" />
+    <file relUrl="Images/tct.jpg" publishTime="01/04/2012 16:18:38" />
+    <file relUrl="bin/it/AjaxControlToolkit.resources.dll" publishTime="11/16/2011 13:22:00" />
+    <file relUrl="RepOpenStock.aspx" publishTime="01/11/2013 16:23:13" />
+    <file relUrl="SetForwarders.aspx" publishTime="01/30/2013 16:05:30" />
+    <file relUrl="Shipping.aspx" publishTime="01/14/2013 16:15:38" />
+    <file relUrl="GateReg.aspx" publishTime="01/07/2013 15:58:19" />
+    <file relUrl="Images/logo-eolane2.gif" publishTime="06/20/2012 15:13:46" />
+    <file relUrl="Web.config" publishTime="01/08/2013 15:34:31" />
+    <file relUrl="Images/truck.jpg" publishTime="08/27/2012 14:30:33" />
+    <file relUrl="RepShippingDocs.aspx" publishTime="12/27/2012 16:51:12" />
+    <file relUrl="bin/cs/AjaxControlToolkit.resources.dll" publishTime="11/16/2011 13:22:00" />
+    <file relUrl="App_LocalResources/GateReg.aspx.resx" publishTime="12/17/2012 11:19:18" />
+    <file relUrl="bin/ar/AjaxControlToolkit.resources.dll" publishTime="11/16/2011 13:22:00" />
+    <file relUrl="Images/reports.jpg" publishTime="06/08/2012 13:48:46" />
+    <file relUrl="bin/ko/AjaxControlToolkit.resources.dll" publishTime="11/16/2011 13:22:02" />
+    <file relUrl="bin/ja/AjaxControlToolkit.resources.dll" publishTime="11/16/2011 13:22:00" />
+    <file relUrl="bin/pt/AjaxControlToolkit.resources.dll" publishTime="11/16/2011 13:22:02" />
+    <file relUrl="SetUsers.aspx" publishTime="01/03/2013 15:47:16" />
+  </publishProfile>
+</publishData>
