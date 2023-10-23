@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="TCT.Site" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajax" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>TCT</title>
+    <style type="text/css">
+        body { font-family: Verdana; font-size: 13px; }
+        img  { border-width: 0px; }
+        #MainMenu li { margin-right: 10px; }
+        .grey    { background: #e0e0e0; }
+        .locked  { background: #f0d0d0; }
+        .red     { color: Red; }
+        .yellow  { color: #C09000; }
+        .comment { color: #808080; font-style:italic; }
+        .hidden  { display: none; }
+    </style>
+    <script src="filterlist.js" type="text/javascript"></script>
+    <script language="javascript" type="text/javascript">
+        String.prototype.trim = function () {
+            return this.replace(/^\s*/, "").replace(/\s*$/, "");
+        }
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <ajax:ToolkitScriptManager runat="server" />
+    <table style="width: 100%;">
+        <tr>
+            <td style="width: 180px;">
+                <img src="Images/tct.jpg" alt="" />
+            </td>
+            <td>
+                <asp:Menu ID="MainMenu" runat="server" DisappearAfter="50" ForeColor="Black" Orientation="Horizontal" RenderingMode="Table">
+                    <Items>
+                        <asp:MenuItem ImageUrl="~/Images/truck.jpg"   NavigateUrl="~/GateReg.aspx"   Text=" Gate Registration" Value="GateRegistration" />
+                                                                                                                              <%--    GateRegistration_FullEdit  --%>
+                        <asp:MenuItem ImageUrl="~/Images/down.jpg"    NavigateUrl="~/Receiving.aspx" Text=" Receiving"         Value="Receiving" />
+                        <asp:MenuItem ImageUrl="~/Images/up.jpg"      NavigateUrl="~/Shipping.aspx"  Text=" Shipping"          Value="Shipping" />
+                        <asp:MenuItem ImageUrl="~/Images/reports.jpg"   Selectable="false"           Text=" Reports"           Value="*">
+                            <asp:MenuItem NavigateUrl="~/RepShippingDocs.aspx"   Text="Shipping Documents" Value="Reports_ShippingDocs" ></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/RepOpenStock.aspx"      Text="Open Stock"         Value="Reports_OpenStock"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/RepStockMovements.aspx" Text="Stock Movements"    Value="Reports_StockMovements"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/RepGateReg.aspx"        Text="Gate Registrations" Value="Reports_GateRegistrations"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem ImageUrl="~/Images/gear.jpg" Selectable="false" Text=" Settings" Value="*">
+                            <asp:MenuItem NavigateUrl="~/SetForwarders.aspx"  Text="Forwarders" Value="Settings_Forwarders"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/SetSuppliers.aspx"   Text="Suppliers"  Value="Settings_Suppliers"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/SetCountries.aspx"   Text="Countries"  Value="Settings_Countries"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/SetCurrencies.aspx"  Text="Currencies" Value="Settings_Currencies"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/SetUsers.aspx"       Text="Users"      Value="Settings_Users"></asp:MenuItem>
+                        </asp:MenuItem>
+                    </Items>
+                    <StaticHoverStyle BorderColor="#0066FF" ForeColor="Blue" />
+                    <LevelMenuItemStyles>
+                        <asp:MenuItemStyle BackColor="White" BorderColor="#CCCCCC" BorderStyle="Solid" BorderWidth="1px" HorizontalPadding="5px" VerticalPadding="5px" ItemSpacing="2px" />
+                        <asp:MenuItemStyle BackColor="White" BorderColor="#CCCCCC" BorderStyle="Solid" BorderWidth="1px" HorizontalPadding="5px" VerticalPadding="5px" />
+                    </LevelMenuItemStyles>
+                    <LevelSelectedStyles>
+                        <asp:MenuItemStyle BackColor="White"   BorderColor="#0066FF" Font-Bold="True" />
+                        <asp:MenuItemStyle BackColor="#ffffe0" BorderColor="#0066FF" Font-Bold="True" />
+                    </LevelSelectedStyles>
+                </asp:Menu>
+            </td>
+            <td>
+                <asp:Label ID="UserNameLabel" runat="server"></asp:Label>
+            </td>
+        </tr>
+    </table>
+    <hr />
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
